@@ -3,9 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <header className="container border-b border-slate-800 py-8 flex items-center justify-between">
-      <Link href="/" className="font-heading font-semibold text-xl">
-        📝 Taskify
-      </Link>
+      
       <nav className="flex items-center gap-8">
         <Link
           href="/todos"
